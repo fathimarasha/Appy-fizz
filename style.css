@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+
+}
+
+.navbar{
+    background-color: #0a0b27;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.navdiv{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    letter-spacing: 1;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px;
+    font-size: 16px;
+    font-family: lucida console;
+}
+li a:hover{
+    color: red;
+    transition: all 0.5s ease-in;
+}
+.container{
+    display: flex;
+    text-align: left;
+}
+.leftpart{
+    margin-top: 0;
+    width: 51%;
+    height: 1000px;
+    background-color: black;
+    background-image: url(photos/redd.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: White;
+    position: relative;
+    
+
+}
+h1{
+    margin: auto;
+    position: absolute;
+    bottom: 250px;
+    right: 130px;
+    top: 400px;
+    left: 200px;
+    font-size: 80px;
+    font-weight: 500px;
+    font-family: serif;
+}
+.rightparts{
+    float: right;
+    width: 51%;
+    height: 1000px;
+    text-align: center;
+    position: relative;
+    right: 250px;
+    bottom: 1650px;
+    top: 180px;
+    left: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 1.2;
+    word-spacing: 1px;
+}
+.banner{
+    position: absolute ;
+    top: 550px;
+    left: 80px;
+     font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    size: 10px;
+}
+.fa{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 10px;
+
+
+}
+,
+.down-icon img{
+    width: 11px;
+    background-size: 30px;
+
+}
+.footer-content1 {
+    position: absolute;
+    left:70px;
+    right: 40px;
+    align-items: center;
+    
+}
+.footer-content2{
+    position: absolute;
+    left: 530px;
+}
+.banner-container{
+    line-height:27px ;
+    font-family:  cursive;
+    font-weight: bolder;
+    font-size: 90%;
+
+}
+.banner-container :hover{
+    color: red;
+    transition: all 0.5s ease-in;
+    text-decoration: underline;
+
+}
+.main{
+    position: absolute;
+    right: 175px;
+
+}
+.paragraph{
+    line-height: 40px;
+
+}
+.paragarph:hover{
+    color: red;
+}s
+.paragraph1{
+    line-height: 40px;
+    
+
+    
+}
+.paragraph1:hover{
+    color:red;
+}
+.paragraph2:hover{
+    color: red;
+    transition: all 0.5s ease-in;
+}
+.mains{
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+    left: 500px;
+
+}
+.fa{
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
